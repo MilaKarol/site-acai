@@ -1,0 +1,121 @@
+        
+        
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .cardapio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 50px;
+        }
+
+        .item {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .item h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 23px;
+        }
+
+        .item p {
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            padding-top: 30px;
+            background-color: #801C79;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+        }
+
+        nav img {
+            height: 150px;
+            margin-top: -20px;
+        }
+
+        nav ul li {
+            margin: 0px;
+        }
+
+        .img-produto {
+            width: 175px;
+            height: 175px;
+            width: 175px;
+            height: 175px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+    
+        /* barra de busca */
+.box {
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  /* Lupa */
+  .box > span {
+    font-size: 25px;
+    color: #000;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  /* input do usuário na busca */
+  .box > input {
+    flex: 1;
+    height: 20px;
+    width: 60px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+  }

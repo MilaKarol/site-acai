@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cardapio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cardapio.css'>
+</head>
+<body>
+    <nav>
+        <img src="Açaiteria-removebg-preview.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Cardápio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+        <nav class='box'>
+            <!-- Lupa -->
+            <span class='material-icons bloom'>P</span>
+            <!-- Input de procura do produto -->
+            <input id='inputUser' onchange='searchBar()' type='text' placeholder='Search'>
+          </nav>
+    </nav>
+    <div class="container">
+        <h1>Cardápio</h1>
+        <div class="cardapio" id="List">
+            <div class="item">
+                <img class="img-produto" src="acai-condensado-e-morango.avif" alt="Açaí com Leite Condensado">
+                <h3>Açaí com Leite Condensado e Morango</h3>
+                <p>Açaí, leite condensado, morango fresco e amendoim.</p>
+            </div>
+
+            <div class="item">
+                <img class="img-produto" src="acai-puro.avif" alt="Açaí Puro">
+                <h3>Açaí Puro</h3>
+                <p>Açaí sem adicionais</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="acai-tradicional.avif" alt="Açai com frutas e leite em pó">
+                <h3>Açaí com fruta e leite em pó</h3>
+                <p>Açaí, leite em pó e mais uma frta</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="acai-paraense.jpg" alt="O verdadeiro açai">
+                <h3>O verdadeiro açai do Pará</h3>
+                <p>Açai, mais 3 adicionais (salgados ou doces)</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="casquinha.jpeg" alt="Açaí na casquinha">
+                <h3>Açaí na casquinha de sorvete </h3>
+                <p>Açaí, açai com cupuaçu, cupuaçu, casquinha recheada com leite condensado ou creme de avelã.</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="barca.webp" alt="Barca de açai">
+                <h3>Barca de açai</h3>
+                <p>Açaí mais 9 adicionais.</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="milkshake.jpg" alt="Milk Shake de açai">
+                <h3>Milk Shake de açai</h3>
+                <p>Açai mais 2 adicionais</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="acai-creme-de-avela.avif" alt="Açaí com creme de leite ninho com morango">
+                <h3>Açaí com creme de leite ninho com morango</h3>
+                <p>Açaí, creme de leite ninho, morango e banana</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="pote.jpeg" alt="Pote de açai">
+                <h3>Pote de açai</h3>
+                <p>300ml</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="marmita.avif" alt="Marmita de açai">
+                <h3>Marmita de açai</h3>
+                <p>Açaí e mais 7 acompanhamentos</p>
+            </div>
+            <div class="item">
+                <img class="img-produto" src="picole.jpg" alt="Picolé de açai">
+                <h3>Picolé de açai</h3>
+                <p>Açai com leitinho</p>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
